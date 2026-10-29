@@ -1,0 +1,48 @@
+{
+  "name": "Ninho — Finanças na palma da mão",
+  "short_name": "Ninho",
+  "description": "Planos, metas, crédito e finanças do casal com login compartilhado. Funciona offline.",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "id": "./",
+  "background_color": "#090e0b",
+  "theme_color": "#0b100d",
+  "categories": ["finance", "productivity"],
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Visão geral",
+      "url": "./#overview"
+    },
+    {
+      "name": "Novo lançamento",
+      "url": "./#transactions"
+    },
+    {
+      "name": "Cartão",
+      "url": "./#card"
+    }
+  ]
+}
